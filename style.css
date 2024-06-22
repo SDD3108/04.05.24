@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+}
+.content {
+    width: 1000px; 
+    height: 900px; 
+    position: relative; 
+    animation: anime 5s infinite;
+    animation-timing-function: step-end;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+@keyframes anime {
+  from {
+    background-image: url(./images/Frame\ 1.png);
+  }
+  9% {
+    background-image: url(./images/Frame\ 2.png);
+  }
+  18% {
+    background-image: url(./images/Frame\ 3.png);
+  }
+  27% {
+    background-image: url(./images/Frame\ 4.png);
+  }
+  36% {
+    background-image: url(./images/Frame\ 5.png);
+  }
+  45% {
+    background-image: url(./images/Frame\ 6.png);
+  }
+  54% {
+    background-image: url(./images/Frame\ 7.png);
+  }
+  63% {
+    background-image: url(./images/Frame\ 8.png);
+  }
+  72% {
+    background-image: url(./images/Frame\ 9.png);
+  }
+  81% {
+    background-image: url(./images/Frame\ 10.png);
+  }
+  90% {
+    background-image: url(./images/Frame\ 11.png);
+  }
+  95% {
+    background-image: url(./images/Frame\ 12.png);
+  }
+  to {
+    background-image: url(./images/Frame\ 13.png);
+  }
+}
